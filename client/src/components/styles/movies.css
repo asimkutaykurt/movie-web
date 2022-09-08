@@ -1,0 +1,65 @@
+.Movies {
+    overflow: hidden;
+}
+
+.movies-main-container {
+    margin: 30px 0px;
+    position: relative;
+}
+
+.movies-main-container h2 {
+    position: absolute;
+}
+
+.movie-box {
+    margin: 40px 10px;
+    padding: 20px;
+    background-color: rgb(235, 235, 235);
+    min-width: 220px;
+    border-radius: 18px;
+    display: flex;
+    flex-direction: column;
+}
+
+.movie-box:hover {
+    background-color: rgb(204, 204, 204);
+}
+
+.movie-cover-container {
+    margin: 0 auto;
+}
+
+.movie-cover-picture {
+    width: 140px;
+    border-radius: 18px;
+}
+
+.movie-description-container {
+    display: flex;
+    justify-content: center;
+    padding: 15px 0px;
+    position: relative;
+}
+
+.movie-short-info {
+    list-style-type: none;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    width: 170px;
+    white-space: nowrap;
+}
+
+.movie-short-info-first-word {
+    font-weight: bold;
+    margin-right: 7px;
+}
+
+.movie-short-info-name:hover {
+    font-weight: bold;
+    color: red;
+}
+
+.favorite-icon {
+    position: absolute;
+    right: 0;
+}

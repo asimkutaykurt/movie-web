@@ -1,0 +1,6 @@
+.home-main-container {
+    display: flex;
+    justify-content: center;
+    padding: 100px 110px;
+    background-color: rgb(24, 24, 24);
+}
