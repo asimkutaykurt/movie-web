@@ -37,7 +37,7 @@ export default function Header() {
     setAnchorEl(null);
   };
 
-
+  
 
   return (
     <div className='Header'>
@@ -52,7 +52,7 @@ export default function Header() {
             <button onClick={() => {localStorage.clear(); navigate('/signin')}}>Logout</button>
           </div>
 
-          <Box sx={{ display: 'flex', alignItems: 'center', textAlign: 'center' }}>
+          <Box sx={{ display: 'flex', alignItems: 'center', textAlign: 'center'}}>
             <Tooltip title="Account settings">
               <IconButton
                 onClick={handleClick}
@@ -62,12 +62,13 @@ export default function Header() {
                 aria-haspopup="true"
                 aria-expanded={open ? 'true' : undefined}
               >
-                <Avatar sx={{ width: 32, height: 32 }}>{token ? localStorage.getItem('USERNAME').substring(0, 1).toUpperCase() : null}</Avatar>
+                <Avatar className='profile-icon' sx={{ width: 32, height: 32 }}>{token ? localStorage.getItem('USERNAME').substring(0, 1).toUpperCase() : null}</Avatar>
               </IconButton>
             </Tooltip>
           </Box>
 
           <Menu
+            className='profile-menu'
             anchorEl={anchorEl}
             id="account-menu"
             open={open}

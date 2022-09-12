@@ -7,18 +7,33 @@
     position: relative;
 }
 
+.MuiTouchRipple-root {
+    background-color: white;
+}
+
+.MuiSvgIcon-root {
+    z-index: 3000;
+}
+
+.MuiButtonBase-root {
+    position: absolute;
+    left: 0;
+}
+
 .movies-main-container h2 {
     position: absolute;
+    color: rgb(243, 243, 243);
 }
 
 .movie-box {
     margin: 40px 10px;
     padding: 20px;
     background-color: rgb(235, 235, 235);
-    min-width: 220px;
+    width: 140px;
     border-radius: 18px;
     display: flex;
     flex-direction: column;
+    font-size: 15px;
 }
 
 .movie-box:hover {
@@ -26,12 +41,13 @@
 }
 
 .movie-cover-container {
+    width: fit-content;
     margin: 0 auto;
 }
 
 .movie-cover-picture {
-    width: 140px;
-    border-radius: 18px;
+    width: 90%;
+    border-radius: 14px;
 }
 
 .movie-description-container {

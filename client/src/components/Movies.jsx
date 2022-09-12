@@ -65,7 +65,7 @@ export default function Movies() {
   return (
     <div className='Movies'>
         <div className='movies-main-container'>
-            <Box sx={{ minWidth: { xs: 400, sm: 1300 }, bgcolor: 'background.paper' }}>
+            <Box sx={{ minWidth: { xs: 100, sm: 100 }}}>
                 <Tabs
                     value={value}
                     onChange={handleChange}
@@ -102,7 +102,7 @@ export default function Movies() {
             </Box>
         </div>
         <div className='movies-main-container'>
-            <Box sx={{ minWidth: { xs: 400, sm: 1300 }, bgcolor: 'background.paper' }}>
+            <Box sx={{ minWidth: { xs: 400, sm: 400 }}}>
         <Tabs
                 value={value}
                 onChange={handleChange}
@@ -142,7 +142,7 @@ export default function Movies() {
         </div>
 
         <div className='movies-main-container'>
-            <Box sx={{ minWidth: { xs: 400, sm: 1300 }, bgcolor: 'background.paper' }}>
+            <Box sx={{ minWidth: { xs: 400, sm: 400 } }}>
             <Tabs
                     value={value}
                     onChange={handleChange}
@@ -181,7 +181,7 @@ export default function Movies() {
         </div>
             
         <div className='movies-main-container'>
-            <Box sx={{ minWidth: { xs: 400, sm: 1300 }, bgcolor: 'background.paper' }}>
+            <Box sx={{ minWidth: { xs: 400, sm: 400 }}}>
             <Tabs
                     value={value}
                     onChange={handleChange}

@@ -46,3 +46,8 @@
     align-items: center;
     justify-content: flex-end;
 }
+
+.profile-icon {
+    color: black;
+    z-index: 5000;
+}
